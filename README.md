@@ -74,10 +74,12 @@ Usuario "1" <--> "*" Movimentacao : realiza
 
 ## 🧱 Protótipo
 O sistema é operado por menu de terminal:
+```
 
 <iframe src="./Protótipo%20de%20baixa%20fidelidade.pdf" width="100%" height="600px">
 </iframe>
 
+```
 
 ## 💻 Tecnologias utilizadas
 - 
