@@ -18,18 +18,21 @@ Este projeto tem como objetivo desenvolver um **sistema de controle de estoque**
 ## 🧩 Diagramas
 ### Casos de Uso
 ```mermaid
-usecaseDiagram
-actor Administrador
-actor Funcionário
+flowchart TD
+    %% === Atores ===
+    A[👤 **Administrador**]
+    F[👤 **Funcionário**]
 
-Administrador --> (Cadastrar Produto)
-Administrador --> (Atualizar Produto)
-Administrador --> (Gerar Relatório)
-Administrador --> (Consultar Produto)
+    %% === Casos de uso do Administrador ===
+    A --> Cadastrar[(Cadastrar Produto)]
+    A --> Atualizar[(Atualizar Produto)]
+    A --> Relatorio[(Gerar Relatório)]
+    A --> ConsultarA[(Consultar Produto)]
 
-Funcionário --> (Consultar Produto)
-Funcionário --> (Registrar Entrada de Estoque)
-Funcionário --> (Registrar Saída de Estoque)
+    %% === Casos de uso do Funcionário ===
+    F --> ConsultarF[(Consultar Produto)]
+    F --> Entrada[(Registrar Entrada de Estoque)]
+    F --> Saida[(Registrar Saída de Estoque)]
 ```
 
 ### Classes
