@@ -74,16 +74,10 @@ Usuario "1" <--> "*" Movimentacao : realiza
 
 ## 🧱 Protótipo
 O sistema é operado por menu de terminal:
-```
-==== SISTEMA DE CONTROLE DE ESTOQUE ====
-1 - Cadastrar Produto
-2 - Consultar Produto
-3 - Atualizar Produto
-4 - Registrar Entrada
-5 - Registrar Saída
-6 - Gerar Relatório
-0 - Sair
-```
+
+<iframe src="./Protótipo%20de%20baixa%20fidelidade.pdf" width="100%" height="600px">
+</iframe>
+
 
 ## 💻 Tecnologias utilizadas
 - 
