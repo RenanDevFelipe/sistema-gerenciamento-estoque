@@ -75,9 +75,8 @@ Usuario "1" <--> "*" Movimentacao : realiza
 ## 🧱 Protótipo
 O sistema é operado por menu de terminal:
 
+📄 [Visualizar Protótipo em PDF](./desing/Prototipo.pdf)
 
-<iframe src="./desing/Prototipo.pdf" width="100%" height="600px">
-</iframe>
 
 
 ## 💻 Tecnologias utilizadas
