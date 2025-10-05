@@ -76,8 +76,10 @@ Usuario "1" <--> "*" Movimentacao : realiza
 O sistema é operado por menu de terminal:
 
 
-<iframe src="./Prototipo.pdf" width="100%" height="600px">
-</iframe>
+## 🎨 Protótipo de Baixa Fidelidade
+
+📄 [Visualizar Protótipo em PDF](./Prototipo.pdf)
+
 
 
 ## 💻 Tecnologias utilizadas
